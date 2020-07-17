@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from "../assets/logo-sophie.png"
 import "./Navbar.css"
 import Auth from "../Auth";
-import { useFirebaseApp, useUser } from 'reactfire';
+import { useUser } from 'reactfire';
 
 const NavBar = () => {
   const user = useUser();
@@ -23,12 +23,13 @@ const NavBar = () => {
               <NavLink className="nav-link hijo2" to="/Contacto">Contacto</NavLink>
             </li>
           </ul>
-          <div className="user"> 
+        </div>
+        <div className="user">
           {user && <p>Usuario: {user.email} </p>}
           <Auth />
-          </div>
         </div>
       </nav>
+
     </div>
   )
 }

@@ -27,7 +27,9 @@ const MainContainer = () => {
 
     return (
         <main className="container">
-            <SelectCategory />
+            <SelectCategory
+
+            />
             <div className="row">
                 {Object.keys(products).map((id) => <Product
                     key={id}

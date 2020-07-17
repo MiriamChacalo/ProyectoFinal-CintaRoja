@@ -10,8 +10,9 @@ const SelectCategory = (props) => {
     const { getProduct } = props
 
     const changeCategory = (value) => {
+        
         setCategory(value)
-        getProduct(category)
+        getProduct()
     }
 
     return (
