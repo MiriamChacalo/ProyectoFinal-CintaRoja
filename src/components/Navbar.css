@@ -1,10 +1,11 @@
-.user{
-    float: right;
-    margin-left: 250px;
-    margin-top: 20px;
-    /* border: 4px black solid; */
+.user {
+  float: right;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 4px black solid; */
 }
-.padre{
-    margin-left: 10px;
-    margin-top: 20px;
+.padre {
+  margin-left: 10px;
+  margin-top: 20px;
 }

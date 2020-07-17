@@ -1,0 +1,8 @@
+.login-content {
+  display: flex;
+  flex-direction: column;
+}
+.login-btn {
+  display: flex;
+  justify-content: flex-end;
+}
