@@ -36,6 +36,7 @@ const FormProduct = (props) => {
 
     return (
         <div className="col-md-4 center">
+            <h2 className="m-3">Nuevo artículo</h2>
             <div className="mt-5 card p-4">
                 <div className="form-group">
                     <label htmlFor="article">Artículo</label>

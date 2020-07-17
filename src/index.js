@@ -5,6 +5,7 @@ import firebaseConfig from './firebase-config';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FirebaseAppProvider } from 'reactfire'
 import 'antd/dist/antd.css';
+import './index.css'
 
 ReactDOM.render((
   <FirebaseAppProvider firebaseConfig={firebaseConfig}>

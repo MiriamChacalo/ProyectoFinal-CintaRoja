@@ -31,8 +31,9 @@ class Contacto extends Component {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-4 center">
+                        <h2 className="m-3">Envíanos un mensaje y en breve te responderemos</h2>
                         <div className="mt-5 card p-4">
-                            <h2>Formulario de contacto</h2>
+
                             <label htmlFor="nombre">Coloca tu nombre:</label>
                             <input
                                 className="form-control"
